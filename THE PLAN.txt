@@ -1,0 +1,55 @@
+Target System
+	*Game boy
+	*Snes
+	*NES
+
+Language
+	*Python
+	*C++
+	*C
+	*COBOL - lol no
+	*Haskell
+	*Scala
+
+Graphics Platform
+	*SDL
+	*SFML
+	*PyGame (SDL wrapper)
+
+Version Control
+	*Git
+
+Schedule
+    Timeline
+		Setup; 5/19 & 5/20; Write Plan, Set up software
+		Hello World; 6/4
+		Backend
+			Registers
+			Memory
+			Instruction Decoding
+			Instruction Execution
+		Frontend
+			UI
+			Graphics
+			Sound
+			Controls
+    Goals
+			Hello world
+			Backend
+			Frontend
+			Run a ROM
+
+Structure
+	Backend
+		Architecture - registers, memory
+		Instruction decoding
+		Instruction execution
+	Frontend
+		Reads/writes memory to interface with the world
+		Graphics
+		Sounds
+		Controls
+
+Resources
+	https://www.cl.cam.ac.uk/~pv273/slides/emulation.pdf
+	https://cturt.github.io/cinoop.html
