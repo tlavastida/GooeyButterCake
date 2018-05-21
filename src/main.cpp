@@ -15,8 +15,9 @@
 int main(int argc, char** argv)
 {
 
-    GooeyButterCake gbc();
+    GooeyButterCake gbc;
 
+    gbc.emulate();
 
     return 0;
 }
