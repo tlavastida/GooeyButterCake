@@ -6,7 +6,6 @@
     components for operating the emulator.
 */
 
-
 #ifndef GOOEYBUTTERCAKE_H
 #define GOOEYBUTTERCAKE_H
 
