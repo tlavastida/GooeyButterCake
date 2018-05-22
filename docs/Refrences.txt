@@ -8,3 +8,7 @@ https://www.cl.cam.ac.uk/~pv273/slides/emulation.pdf
 
 Writing a Game Boy emulator, Cinoop
 https://cturt.github.io/cinoop.html
+
+Zilog Z80 ISA (Similar to GameBoy ISA)
+TODO: Replace with actual ISA Documentation
+https://www.zilog.com/appnotes_download.php?FromPage=DirectLink&dn=UM0080&ft=User%20Manual&f=YUhSMGNEb3ZMM2QzZHk1NmFXeHZaeTVqYjIwdlpHOWpjeTk2T0RBdlZVMHdNRGd3TG5Ca1pnPT0=
