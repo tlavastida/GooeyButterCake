@@ -1,36 +1,48 @@
-/*
-    GooeyButterCake.cpp
+//GooeyButterCake.cpp
+//
+//Implementation of the main class, GooeyButterCake
 
-    Implementation of the main class, GooeyButterCake
-*/
 
 #include "GooeyButterCake.h"
 #include <iostream>
 
-/*
-    Default constructor
-*/
-GooeyButterCake::GooeyButterCake()
-{
+GooeyButterCake::GooeyButterCake(){
+    // Default constructor
+
     // nothing to do yet
 }
 
-/*
-    Default destructor
-*/
-GooeyButterCake::~GooeyButterCake()
-{
+GooeyButterCake::~GooeyButterCake(){
+    // Default destructor
+
     // nothing to do yet
 }
 
-int GooeyButterCake::emulate()
-{
+int GooeyButterCake::emulate(){
+    // Tentative interface
+    //
+    // Return: ???
 
     std::cout << "Hello World" << std::endl;
     return 0;
 }
 
-int GooeyButterCake::loadROM(char* pathToROM)
-{
+int GooeyButterCake::loadROM(char* pathToROM){
+    // Loads ROM from XXX
+    //
+    // char* pathtoROM: filepath to the ROM
+    //
+    // Return: ???
+
+    //TODO
+    return 0;
+}
+
+int GooeyButterCake::getInst(){
+    // Pulls the next instruction from XXX?
+    //
+    // Return: next instruction byte (not decoded?)
+
+    // TODO
     return 0;
 }

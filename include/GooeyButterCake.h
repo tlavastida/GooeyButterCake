@@ -22,7 +22,10 @@ public:
     int emulate();
 
 private:
+    // Loads ROM from XXX
     int loadROM(char* pathToROM);
+    // Pulls the next instruction from XXX?
+    int getInst();
 };
 
 #endif
