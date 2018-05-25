@@ -11,3 +11,9 @@ https://cturt.github.io/cinoop.html
 
 GameBoy CPU Manual
 http://marc.rawer.de/Gameboy/Docs/GBCPUman.pdf
+
+Why did I spend 1.5 months creating a Gameboy emulator?
+http://blog.rekawek.eu/2017/02/09/coffee-gb/
+
+/r/EmuDev
+https://www.reddit.com/r/EmuDev/ 
