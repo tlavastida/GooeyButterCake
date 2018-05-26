@@ -25,6 +25,7 @@ $RECYCLE.BIN/
 # Object files
 *.o
 
-# Executables
+# Windows Executables
 *.exe
-*.out # adding this suffix to linux executable 
+# Adding *.out suffix to linux exectuables (i.e. output of make)
+*.out 
