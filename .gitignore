@@ -24,3 +24,7 @@ $RECYCLE.BIN/
 
 # Object files
 *.o
+
+# Executables
+*.exe
+*.out # adding this suffix to linux executable 

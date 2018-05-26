@@ -6,7 +6,7 @@
 CC = g++
 
 # Name of executable
-OUTPUT_NAME = GooeyButterCake
+OUTPUT_NAME = GooeyButterCake.out
 
 # directory for source files
 SRC=./src/
@@ -47,13 +47,13 @@ release: main
 
 # main target, builds the program
 main: $(OBJS) $(DEPS)
-	$(CC) -o $(OUTPUT_NAME) $(^) $(FLAGS) $(LIBS) 
+	$(CC) -o $(OUTPUT_NAME) $^ $(FLAGS) $(LIBS) 
     # the $(^) copies the dependencies from the previous line
 
 # Builds object files
 $(OBJ)%.o: $(SRC)%.cpp $(DEPS)
-	$(CC) -c -o $@ $^ $(FLAGS) $(LIBS)
+	$(CC) -c -o $@ $< $(FLAGS) $(LIBS)
 
 # cleans the build directory, i.e. delete .o files and executable
 clean:
-	rm $(OUTPUTNAME) $(OBJ)*.o
+	rm -f $(OUTPUT_NAME) $(OBJ)*.o
