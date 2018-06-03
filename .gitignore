@@ -29,3 +29,6 @@ $RECYCLE.BIN/
 *.exe
 # Adding *.out suffix to linux exectuables (i.e. output of make)
 *.out 
+
+# ignoring c_cpp_properties.json
+c_cpp_properties.json 
