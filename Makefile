@@ -18,15 +18,20 @@ INCLUDE=./include/
 OBJ=./obj/
 
 # Default compilation flags
-FLAGS = -Wall -I$(INCLUDE)
+FLAGS = -Wall -I$(INCLUDE) -std=c++11
+
+# Extra warning flags, maybe use them later?
+FLAGS += -Wextra
+
+LIBS = -lSDL2
 
 # List header files in /include/ here
-_DEPS=GooeyButterCake.h
+_DEPS=GooeyButterCake.h Display.h
 # Properly reformat headers
 DEPS=$(patsubst %,$(INCLUDE)%,$(_DEPS))
 
 # List object files needed to build properly
-_OBJS=main.o GooeyButterCake.o
+_OBJS=main.o GooeyButterCake.o Display.o
 # Properly reformat
 OBJS=$(patsubst %,$(OBJ)%,$(_OBJS))
 

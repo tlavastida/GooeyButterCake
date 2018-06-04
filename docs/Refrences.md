@@ -16,10 +16,16 @@ https://cturt.github.io/cinoop.html
 
 http://marc.rawer.de/Gameboy/Docs/GBCPUman.pdf
 
-## Why did I spend 1.5 months creating a Gameboy emulator? 
+## Why did I spend 1.5 months creating a Gameboy emulator?
 
 http://blog.rekawek.eu/2017/02/09/coffee-gb/
 
 ## /r/EmuDev
 
 https://www.reddit.com/r/EmuDev/
+
+## Stackoverflow links for getting SDL2 to work on WSL
+
+https://stackoverflow.com/questions/44188968/sdl-init-fails-with-sdl-error-failed-to-connect-to-the-mir-server
+
+https://stackoverflow.com/questions/43397162/show-matplotlib-plots-in-ubuntu-windows-subsystem-for-linux/43399827#43399827
