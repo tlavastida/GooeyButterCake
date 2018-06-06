@@ -24,6 +24,12 @@ int GooeyButterCake::emulate(){
     // Return: ???
 
     std::cout << "Hello World" << std::endl;
+
+    if( display.show() != 0 )
+    {
+        std::cout << "failed to show display" << std::endl;
+    }
+
     return 0;
 }
 
