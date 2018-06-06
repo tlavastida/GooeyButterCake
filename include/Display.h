@@ -27,12 +27,12 @@ public:
 private: 
 
     const char* TITLE = "GooeyButterCake";
-    const int XPOS = SDL_WINDOWPOS_UNDEFINED;
-    const int YPOS = SDL_WINDOWPOS_UNDEFINED;
+    const static int XPOS = SDL_WINDOWPOS_UNDEFINED;
+    const static int YPOS = SDL_WINDOWPOS_UNDEFINED;
 
     // default game boy resolution
-    const int DISPLAY_WIDTH = 160;
-    const int DISPLAY_HEIGHT = 144;
+    const static int DISPLAY_WIDTH = 160;
+    const static int DISPLAY_HEIGHT = 144;
 
     // Window variable
     SDL_Window* window;
