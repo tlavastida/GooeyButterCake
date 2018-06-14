@@ -29,3 +29,8 @@ https://www.reddit.com/r/EmuDev/
 https://stackoverflow.com/questions/44188968/sdl-init-fails-with-sdl-error-failed-to-connect-to-the-mir-server
 
 https://stackoverflow.com/questions/43397162/show-matplotlib-plots-in-ubuntu-windows-subsystem-for-linux/43399827#43399827
+
+## Game Programming Patterns
+##
+## Useful for structuring the code
+http://gameprogrammingpatterns.com/contents.html
